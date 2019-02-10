@@ -19,13 +19,14 @@ body
 
 .questions
 {
-	margin: auto;
+	margin: center;
 	padding: 20px 15px 20px 15px;	
 }
 
 p.lead
 {
 	font-size: 16px;
+
 }
 
 .btn-primary-spacing 
