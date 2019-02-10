@@ -1,0 +1,28 @@
+body
+{
+	background-image: url("pictures/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	height: 100%;
+
+}
+
+p.lead
+{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	width: 600px;
+}
+
+img
+{
+	height: 500px;
+	width: 500px;
+}
+
+.btn-primary-spacing
+{
+	margin-right: 5px;
+	margin-bottom: 5px !important;
+}
