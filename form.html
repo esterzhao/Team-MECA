@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="form.css">
 	<script src="/script.js" defer></script>
 </head>
 <body>
@@ -31,83 +32,59 @@
 		<p> Please complete the following form, so we can search your area for a hospital that will provide you with high quality care.</p>
 		</div>
 
-		<div class="container">
-			<p>Race:</p>
-			<form>
-				<div class="radio">
-					<label><input type="radio" name="optradio"> American Indian or Alaska Native</label>
-				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio"> Asian</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> Black or African American</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> Native Hawaiian or Other Pacific Islander</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> White</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> Two or more races</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> Other</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> I wish not to provide this information</label>
-				</div>
-			</form>
-		</div>
-		<br>
-		<div class="container">
-			<p>Ethnicity:</p>
-			<form>
-				<div class="radio">
-					<label><input type="radio" name="optradio"> Hispanic or Latino</label>
-				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio"> Not Hispanic or Latino</label>
-				</div>
-				<div class="radio disabled">
-					<label><input type="radio" name="optradio"> I wish not to provide this information</label>
-				</div>
-			</form>
-		</div>
-		<br>
-		<div class="container">
-			<form>
-				<p>Zip Code:</p>
-				<input type="text" class="form-control" id="inputZip">
-			</form>
-		</div>
-		<br>
-		<div class="container">
-			<form>
-				<p>Age:</p>
-				<input type="text" class="form-control" id="inputZip">
-			</form>
-		</div>
-		<br>
-
 		<!-- Form code begins -->
 		<div class="container">
-			<form method="post">
-				<div class="form-group"> <!-- Date input -->
-					<p>Due Date:</p>
-					<input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
-				</div>
-			</form>
-		</div>
-		<br>
-
-		<div class="container">
 			<form>
-				<center><button class="btn btn-info" type="submit">Submit form</button></center>
+				<!-- Race input -->
+				<p>Race:</p>
+				<div class="radio">
+					<label><input type="radio" name="race" id="native"> American Indian or Alaska Native</label><br>
+					<label><input type="radio" name="race" id="asian"> Asian</label><br>
+					<label><input type="radio" name="race" id="black"> Black or African American</label><br>
+					<label><input type="radio" name="race" id="islander"> Native Hawaiian or Other Pacific Islander</label><br>
+					<label><input type="radio" name="race" id="white"> White</label><br>
+					<label><input type="radio" name="race" id="multi"> Two or more races</label><br>
+					<label><input type="radio" name="race" id="other"> Other</label><br>
+				</div>
+				<br>
+
+				<!-- Ethnicity input -->
+				<div class="radio">
+					<p>Ethnicity:</p>
+					<label><input type="radio" name="ethnicity" id="hispanic"> Hispanic or Latino</label><br>
+					<label><input type="radio" name="ethnicity" id="notHispanic"> Not Hispanic or Latino</label><br>
+				</div>
+				<br>
+
+				<!-- Zip code input -->
+				<label>Zip Code <input type="text" name="zipCode" id="zipCode"></label>
+				<br>
+
+				<!-- Age input -->
+				<label>Age <input type="number" name="age" id="age"></label>
+				<br>
+
+				<!-- Due date input -->
+				<label>Due Date <input type="date" name="dueDate" id="dueDate"></label>
+				<br>
+
+				<!-- Submit button -->
+				<center><input type="submit"></center>
+				<br>
+				<!-- <center><button class="btn btn-info" type="submit">Submit</button></center>
+				<br>
+			-->
+
+
+			<!-- CLOSE INPUT FORM -->
 			</form>
-		</div>
-		<br>
+
+
+
+
+
+
+
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
