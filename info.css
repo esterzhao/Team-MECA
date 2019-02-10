@@ -1,10 +1,17 @@
 body
 {
-	background-image: url("pictures/background.jpg");
+	background-image: url("pictures/background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: auto;
 	height: 100%;
+
+}
+
+p
+{
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
 }
 
 .cover
@@ -12,7 +19,7 @@ body
 	margin:13em auto 12em;
 	width:100%;
 	text-align: center;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 26px;
 }

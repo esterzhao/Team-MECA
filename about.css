@@ -1,12 +1,13 @@
-	body
-	{
-		background-image: url("pictures/background.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		margin: auto;
-		height: 100%;
-	}
-	.cover 
+body
+{
+	background-image: url("pictures/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	height: 100%;
+}
+
+.cover 
 {
 	margin:13em auto 12em;
 	width:100%;
@@ -21,7 +22,3 @@
 margin-right: 5px;
 margin-bottom: 5px !important;
 }
-
-
-
-
