@@ -1,0 +1,47 @@
+body
+{
+	background-image: url("pictures/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	height: 100%;
+}
+
+p.lead
+{
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	
+}
+.cover
+{
+	margin:13em auto 12em;
+	width:100%;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.radio input 
+{
+	margin-left: .25in;
+}
+
+
+.btn-primary-spacing
+{
+	margin-right: 5px;
+	margin-bottom: 5px !important;
+}
+
+.form
+{
+	margin: auto;
+	padding: 20px 15px 20px 15px;
+	max-height: 100%;
+	width: 700px;
+	background-color: #E6E6FA;
+} 
+

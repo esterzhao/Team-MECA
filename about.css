@@ -1,0 +1,36 @@
+body
+{
+	background-image: url("pictures/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	height: 100%;
+}
+
+.cover 
+{
+	margin:13em auto 12em;
+	width:100%;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.questions
+{
+	margin: auto;
+	padding: 20px 15px 20px 15px;	
+}
+
+p.lead
+{
+	font-size: 16px;
+}
+
+.btn-primary-spacing 
+{
+margin-right: 5px;
+margin-bottom: 5px !important;
+}
+
