@@ -13,5 +13,4 @@ Ester Zhao:
 Ester was the manager to our team. She helped as much as she could by collecting and importing onto a python file. She also contributed to design and helped with flask.
 
 Michelle Tsai Gomez:
-
 Clarie took the lead using flask. This was Clarie first time working with flask and was able to learn a lot from it.
