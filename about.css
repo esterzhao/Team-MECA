@@ -17,8 +17,20 @@ body
 	font-size: 26px;
 }
 
+.questions
+{
+	margin: auto;
+	padding: 20px 15px 20px 15px;	
+}
+
+p.lead
+{
+	font-size: 16px;
+}
+
 .btn-primary-spacing 
 {
 margin-right: 5px;
 margin-bottom: 5px !important;
 }
+
