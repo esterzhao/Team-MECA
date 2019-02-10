@@ -2,17 +2,16 @@
 <html>
 <head>
 	<title>MECA Website</title>
-	<link href="hospital.css" rel="stylesheet" />
+	<link href="form.css" rel="stylesheet" />
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<link rel="stylesheet" href="form.css">
 	<script src="/script.js" defer></script>
 </head>
 <body>
 
-	<div class="d-flex flex-row-reverse bd-highlight mb-6">
+	<div class="d-flex flex-row-reverse bd-highlight mb-3">
 		<nav class="navbar navbar-info bg-info" style="background-color: #e3f2fd;">
 			<a href="index.html" class="btn btn-outline-light btn-primary-spacing my-2 my-sm-0" role="button" aria-pressed="true">Home</a>
 			<a href="form.html" class="btn btn-outline-light btn-primary-spacing my-2 my-sm-0" role="button" aria-pressed="true">Find a Hospital</a>
@@ -23,17 +22,16 @@
 			</form>
 		</nav>
 	</div>
-	<br>
-	<center><h1>Find A Hospital</h1> </center>
 	<br><br>
+		<center><h1>Find A Hospital</h1> 
+			<br>
+		<p class="description"> We want to make sure you have health care that will take good care of you. Let us help you find a hospital that will do just that. </p>
+		<p class="description"> Please complete the following form, so we can search your area for a hospital that will provide you with high quality care.</p></center>
+		<br><br>
 
-	<div class = "container">
-		<p> We want to make sure you have health care that will take good care of you. Let us help you find a hospital that will do just that. </p>
-		<p> Please complete the following form, so we can search your area for a hospital that will provide you with high quality care.</p>
-		</div>
 
 		<!-- Form code begins -->
-		<div class="container">
+		<div class="form">
 			<form>
 				<!-- Race input -->
 				<p>Race:</p>
@@ -56,20 +54,20 @@
 				</div>
 				<br>
 
-				<!-- Zip code input -->
-				<label>Zip Code <input type="text" name="zipCode" id="zipCode"></label>
-				<br>
-
 				<!-- Age input -->
 				<label>Age <input type="number" name="age" id="age"></label>
 				<br>
 
-				<!-- Due date input -->
-				<label>Due Date <input type="date" name="dueDate" id="dueDate"></label>
+				<!-- Zip code input -->
+				<label>Zip Code <input type="text" name="zipCode" id="zipCode"></label>
 				<br>
 
+				<!-- Due date input -->
+				<label>Due Date <input type="date" name="dueDate" id="dueDate"></label>
+				<br><br>
+
 				<!-- Submit button -->
-				<center><input type="submit"></center>
+				<center> <input type="submit" class="btn btn-info"></center>
 				<br>
 				<!-- <center><button class="btn btn-info" type="submit">Submit</button></center>
 				<br>
@@ -78,16 +76,11 @@
 
 			<!-- CLOSE INPUT FORM -->
 			</form>
+		</div>
 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
 
-
-
-
-
-
-
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	</body>
-	</html>

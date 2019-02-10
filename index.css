@@ -5,6 +5,12 @@ body
 	background-size: cover;
 	margin: auto;
 	height: 100%;
+
+}
+
+h1
+{
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 .cover 

@@ -6,6 +6,14 @@ body
 	margin: auto;
 	height: 100%;
 }
+
+p.description
+{
+	font-size: 17px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	
+}
 .cover
 {
 	margin:13em auto 12em;
@@ -16,7 +24,8 @@ body
 	font-size: 26px;
 }
 
-.radio input {
+.radio input 
+{
 	margin-left: .25in;
 }
 
@@ -27,8 +36,12 @@ body
 	margin-bottom: 5px !important;
 }
 
-.btn-primary-spacing
+.form
 {
-	margin-right: 5px;
-	margin-bottom: 5px !important;
-}
+	margin: auto;
+	padding: 20px 15px 20px 15px;
+	max-height: 100%;
+	width: 700px;
+	background-color: #E6E6FA;
+} 
+
